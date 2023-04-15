@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Calculator Page</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+  <div class="cal-body">
+    <div class="cal-body-display">
+      <textarea id="display" placeholder="0"></textarea>
+    </div>
+    <div class="cal-body-button">
+      <div class="cal-body-button-row-1">
+        <button class="cal-body-button-column-1" onclick="backspace()">
+          CE
+        </button>
+        <p>GMP 2.0</p>
+        <button class="cal-body-button-column-2" onclick="screen.value=''">
+          AC
+        </button>
+      </div>
+
+      <div class="cal-body-button-row-2">
+        <button class="cal-body-button-column-1" onclick="fact()">x!</button>
+        <button class="cal-body-button-column-2" onclick="sin()">sin</button>
+        <button class="cal-body-button-column-3" onclick="cos()">cos</button>
+        <button class="cal-body-button-column-4" onclick="tan()">tan</button>
+      </div>
+      <div class="cal-body-button-row-3">
+        <button class="cal-body-button-column-1" onclick="pie()">π</button>
+        <button class="cal-body-button-column-2" onclick="log()">log</button>
+        <button class="cal-body-button-column-3" onclick="eValue()">e</button>
+        <button class="cal-body-button-column-4" onclick="pow()">x²</button>
+      </div>
+      <div class="cal-body-button-row-4">
+        <button class="cal-body-button-column-1" onclick="sqrt()">√</button>
+        <button class="cal-body-button-column-2 disBtn">(</button>
+        <button class="cal-body-button-column-3 disBtn">)</button>
+        <button class="cal-body-button-column-4 disBtn">÷</button>
+      </div>
+
+      <div class="cal-body-button-row-5">
+        <button class="cal-body-button-column-1 disBtn">7</button>
+        <button class="cal-body-button-column-2 disBtn">8</button>
+        <button class="cal-body-button-column-3 disBtn">9</button>
+        <button class="cal-body-button-column-4 disBtn">+</button>
+      </div>
+      <div class="cal-body-button-row-6">
+        <button class="cal-body-button-column-1 disBtn">4</button>
+        <button class="cal-body-button-column-2 disBtn">5</button>
+        <button class="cal-body-button-column-3 disBtn">6</button>
+        <button class="cal-body-button-column-4 disBtn">X</button>
+      </div>
+      <div class="cal-body-button-row-7">
+        <button class="cal-body-button-column-1 disBtn">1</button>
+        <button class="cal-body-button-column-2 disBtn">2</button>
+        <button class="cal-body-button-column-3 disBtn">3</button>
+        <button class="cal-body-button-column-4 disBtn">-</button>
+      </div>
+      <div class="cal-body-button-row-8">
+        <button class="cal-body-button-column-1 disBtn">.</button>
+        <button class="cal-body-button-column-2 disBtn">0</button>
+        <button class="cal-body-button-column-3 disBtn">=</button>
+        <button class="cal-body-button-column-4 disBtn">+</button>
+      </div>
+    </div>
+  </div>
+
+  <footer>Copyright 2023 &copy EXTROVERT GMP </footer>
+
+  <script src="index.js"></script>
+</body>
+
+</html>

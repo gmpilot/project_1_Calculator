@@ -1,0 +1,167 @@
+body {
+  background-image: url(./background_cal.jpg);
+  background-size:auto;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.cal-body {
+  margin: auto;
+  text-align: center;
+  background-color: black;
+  justify-content: center;
+  width: 330px;
+  border-radius: 10px;
+  color: white;
+}
+
+#display {
+  width: 280px;
+  height: 60px;
+  background-color: rgb(189, 220, 173);
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  box-shadow: inset rgb(0, 0, 0) 0px 0px 10px;
+  text-align: right;
+  padding: 20px;
+  font-size: x-large;
+  margin-top: 5px;
+  resize: none;
+}
+
+p {
+  color: black;
+  align-items: center;
+  font-size: 18px;
+  font-family: "Times New Roman", Times, serif;
+  box-shadow: 1px 1px rgb(255, 255, 255), -1px -1px #000000;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.cal-body-button {
+  margin: auto;
+  width: 320px;
+  height: 510px;
+  background-color: rgb(200, 207, 207);
+  box-shadow: inset rgb(0, 0, 0) 0px 0px 10px;
+  margin-top: 5px;
+  align-items: center;
+  margin-bottom: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.cal-body-button-row-1,
+.cal-body-button-row-2,
+.cal-body-button-row-3,
+.cal-body-button-row-4,
+.cal-body-button-row-5,
+.cal-body-button-row-6,
+.cal-body-button-row-7,
+.cal-body-button-row-8 {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.cal-body-button-column-1,
+.cal-body-button-column-2,
+.cal-body-button-column-3,
+.cal-body-button-column-4 {
+  cursor: pointer;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  box-shadow: rgb(255, 255, 255) inset 0px 0px 2px;
+  padding: 5px;
+  border-radius: 10px;
+  width: 60px;
+  height: 40px;
+  margin: 10px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: x-large;
+}
+
+.cal-body-button-row-1 .cal-body-button-column-1,
+.cal-body-button-row-1 .cal-body-button-column-2 {
+  background-color: red;
+  color: white;
+  box-shadow: rgb(255, 255, 255) inset 0px 0px 2px;
+}
+
+.cal-body-button-row-4 .cal-body-button-column-4 {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  box-shadow: rgb(0, 0, 0) inset 0px 0px 2px;
+}
+
+.cal-body-button-row-5 .cal-body-button-column-4 {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  box-shadow: rgb(0, 0, 0) inset 0px 0px 2px;
+}
+
+.cal-body-button-row-6 .cal-body-button-column-4 {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  box-shadow: rgb(0, 0, 0) inset 0px 0px 2px;
+}
+
+.cal-body-button-row-7 .cal-body-button-column-4 {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  box-shadow: rgb(0, 0, 0) inset 0px 0px 2px;
+}
+
+.cal-body-button-row-8 .cal-body-button-column-4 {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  box-shadow: rgb(0, 0, 0) inset 0px 0px 2px;
+}
+
+.cal-body-button-row-8 .cal-body-button-column-3 {
+  background-color: rgb(170, 255, 0);
+  color: black;
+  box-shadow: rgb(0, 0, 0) inset 0px 0px 2px;
+}
+
+.cal-body-button-row-5 .cal-body-button-column-1,
+.cal-body-button-row-5 .cal-body-button-column-2,
+.cal-body-button-row-5 .cal-body-button-column-3 {
+  background-color: rgb(57, 55, 55);
+  color: white;
+  box-shadow: rgb(255, 255, 255) inset 0px 0px 2px;
+}
+
+.cal-body-button-row-6 .cal-body-button-column-1,
+.cal-body-button-row-6 .cal-body-button-column-2,
+.cal-body-button-row-6 .cal-body-button-column-3 {
+  background-color: rgb(57, 55, 55);
+  color: white;
+  box-shadow: rgb(255, 255, 255) inset 0px 0px 2px;
+}
+
+.cal-body-button-row-7 .cal-body-button-column-1,
+.cal-body-button-row-7 .cal-body-button-column-2,
+.cal-body-button-row-7 .cal-body-button-column-3 {
+  background-color: rgb(57, 55, 55);
+  color: white;
+  box-shadow: rgb(255, 255, 255) inset 0px 0px 2px;
+}
+
+.cal-body-button-row-8 .cal-body-button-column-1,
+.cal-body-button-row-8 .cal-body-button-column-2 {
+  background-color: rgb(57, 55, 55);
+  color: white;
+  box-shadow: rgb(255, 255, 255) inset 0px 0px 2px;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 10vh;
+    right: 10vh;
+
+}
